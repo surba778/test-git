@@ -7,10 +7,11 @@
         body {
             font-family: Arial, sans-serif;
             margin: 40px;
-            background-color: #f5f5f5;
+            font-style: italic;
+            background-color: purple;
         }
         h1 {
-            color: #333;
+            color: green;
         }
         .section {
             background: white;
@@ -22,19 +23,26 @@
         ul {
             line-height: 1.6;
         }
+        img {
+            width: 250px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
 
     <h1>Welcome to My First Webpage</h1>
 
-    <div class="section">
+    <div class="section" id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm learning how to build webpages using HTML.  
+        <p>Hello! I amlearning how to build webpages using HTML.  
         This is my very first practice page.</p>
+
+        <img src="images/Suresh.jpg" alt="My Photo">
     </div>
 
-    <div class="section">
+    <div class="section" id="diary">
         <h2>📘 My Course Diary</h2>
         <ul>
             <li><strong>Day 1:</strong> Learned about HTML tags and structure.</li>
@@ -43,7 +51,7 @@
         </ul>
     </div>
 
-    <div class="section">
+    <div class="section" id="favorites">
         <h2>My Favorite Things</h2>
         <ul>
             <li>Programming</li>
@@ -51,13 +59,19 @@
             <li>Good food</li>
             <li>Learning new technologies</li>
         </ul>
+
+        <p>Visit my favorite website:  
+        <a href="https://www.w3schools.com" target="_blank">Learn Web Development</a></p>
     </div>
 
-    <div class="section">
+    <div class="section" id="contact">
         <h2>📬 Contact</h2>
-        <p>You can reach me at: <a href="mailto:example@email.com">
-        example@email.com</a></p>
+        <p>You can reach me at: 
+            <a href="mailto:example@email.com">
+            example@email.com</a>
+        </p>
     </div>
+    
 
 </body>
 </html>
