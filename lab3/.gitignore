@@ -1,0 +1,14 @@
+# Generated plot images
+*.png
+*.jpg
+!images/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
